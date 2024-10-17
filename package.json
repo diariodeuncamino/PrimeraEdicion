@@ -9,10 +9,10 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "dev": "vite",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -f"
   },
   "dependencies": {
-    "gh-pages": "6.1.1",
+    "gh-pages": "^6.1.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-pageflip": "2.0.3"
@@ -26,6 +26,6 @@
     "eslint-plugin-react-hooks": "4.6.2",
     "eslint-plugin-react-refresh": "0.4.7",
     "sass": "1.77.8",
-    "vite": "5.3.4"
+    "vite": "^5.4.9"
   }
 }
