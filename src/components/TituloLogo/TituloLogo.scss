@@ -1,0 +1,85 @@
+.container-titulo {
+  background: rgba(255, 0, 0, 0);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  background-image: url("/Proyecto-LibroMAM/images/webp/fondoTitulo-v1.webp");
+  background-size: 100%;
+  //scale: 1.5;
+ //transform: rotate(15deg);
+  user-select:none;
+  animation: fadeInBackground 2s ease forwards;
+
+  h1 {
+    font-family: 'DaftBrush';
+    font-size: 70pt;
+    color: rgba(255, 255, 255, 0.703);
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.0em; 
+    line-height: 1;
+    font-weight: 400;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+
+    white-space: nowrap;
+
+  }
+
+  h2 {
+    font-family: 'DaftBrush';
+    font-size: 30pt;
+    color: rgba(174, 142, 0, 0.821);
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.05em; 
+    line-height: 0.5;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0,1);
+   
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeInText 2s ease forwards;
+  }
+  
+  /* Definimos la animación para cada elemento */
+  @keyframes fadeInText {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* El texto empieza ligeramente desplazado hacia abajo */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* El texto regresa a su posición original */
+    }
+  }
+  
+  /* Establecemos un delay para cada h1 y h2 para que se animen uno tras otro */
+  h1:nth-child(1) {
+    animation-delay: 1s;
+  }
+  
+  h2:nth-child(2) {
+    animation-delay: 1.5s;
+  }
+  
+  h1:nth-child(3) {
+    animation-delay: 2s;
+  }
+
+
+
+/* Definición de la animación */
+@keyframes fadeInBackground {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+}

@@ -1,0 +1,93 @@
+{
+  "chapters": [
+    {
+      "chapterNumber": "Capítulo 1",
+      "chapterTitle": "RN40, el inicio de un sueño",
+      "chapterSubtitle": "El comienzo del camino, se inicia con un primer paso: SOÑARLO",
+      "backgroundImage": "/images/bg-cap1.png",
+      "imagesChapter": [
+        {
+          "url": "/images/img-prueba.png",
+          "alt": "img-prueba"
+        }
+      ],
+      "pages": [
+        {
+          "title": "RN40",
+          "type": "1",
+          "background": "/images/bg-cap1-pg1.png",
+          "paragraphs": [
+            "¡Hola nuevamente!",
+            "Quisiera aclarar que este NO ES EL LIBRO “Diario de un Camino”. ",
+            "Lo que estás viendo se trata únicamente una muestra del Proyecto base del Libro, pensada prácticamente para ser una presentación de la versión ilustrada del libro en un entorno digital. Con el objetivo principal de apreciar el desarrollo y el diseño web asociado, enfocados tanto en los aspectos visuales como en la funcionalidad de la web; buscando con esto el propósito de destacar mis habilidades y experiencia en el área de desarrollo web y ser exhibido en mi portafolio profesional.",
+            "Pero, si deseas leer mi libro “DIARIO DE UN CAMINO”, no te preocupes. Puedes contactarme por el medio que prefieras (redes sociales, WhatsApp, etc.), y con gusto te pasaré el PDF o el enlace de la versión digital del libro para que lo disfrutes."
+          ],
+          "images": [
+            {
+              "url": "/",
+              "alt": ""
+            }
+          ]
+        },
+        {
+          "title": "RN40",
+          "type": "2",
+          "background": "",
+          "paragraphs": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Est eligendi vitae nostrum laboriosam?",
+            "Lorem, ipsum dolor tetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Elaboriosam?"
+          ],
+          "images": [
+            {
+              "url": "/Proyecto-LibroMAM/images/img_prueba1.png",
+              "alt": "img-prueba1"
+            }
+          ]
+        },
+        {
+          "title": "RN40",
+          "type": "3",
+          "background": "",
+          "paragraphs": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Est eligendi vitae nostrum laboriosam?",
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Est"
+          ],
+          "images": [
+            {
+              "url": "/Proyecto-LibroMAM/images/img_prueba2.png",
+              "alt": "img-prueba"
+            }
+          ]
+        },
+        {
+          "title": "RN40",
+          "type": "2",
+          "background": "",
+          "paragraphs": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. "          ],
+          "images": [
+            {
+              "url": "/Proyecto-LibroMAM/images/img_prueba3.png",
+              "alt": "img-prueba1"
+            }
+          ]
+        },
+        {
+          "title": "RN40",
+          "type": "2",
+          "background": "",
+          "paragraphs": [
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Est eligendi vitae nostrum laboriosam?",
+            "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio facere numquam soluta quos asperiores sed, consequatur atque non, labore architecto magnam omnis a perferendis est! Est"
+          ],
+          "images": [
+            {
+              "url": "",
+              "alt": "img-prueba"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

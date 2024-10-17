@@ -1,0 +1,135 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+  border: 1px solid #9e9e9e;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+
+  background-color: #fdfaf7;
+  color: #785e3a;
+
+  overflow: hidden;
+}
+
+.page h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.page p {
+  font-size: 16px;
+}
+
+.page.--right {
+  border-left: 0;
+  box-shadow: inset 9px 0 30px -7px rgba(0, 0, 0, .5);
+  background-color: #fcf6f0;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.page.--left {
+  border-right: 0;
+  box-shadow: inset -7px 0 30px -7px rgba(0, 0, 0, .4);
+  border-radius: 20px 0px 0px 20px;
+
+}
+
+.page.cover {
+  background: #28200000;
+  /* Color de la portada */
+  padding: 0;
+  border: 0;
+  width: 570px;
+  height: 753px;
+
+}
+
+.imgProtada {
+  width: 550px;
+  height: 733px;
+}
+
+.container-libro {
+  width: 1100px;
+  height: 730px;
+  z-index: 16;
+  background-image: url("/Proyecto-LibroMAM/images/libro-lomo-v1.png");
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+  background-size: contain;
+  
+
+}
+
+@media only screen and (max-width: 1150px) {
+  .container-libro {
+    width: 550px;
+  }
+}
+
+.estiloslibro {
+  z-index: 16;
+  filter: drop-shadow(-0px 22px 10px rgba(0, 0, 0, 0.9));
+}
+
+.imgLomo {
+  position: absolute;
+  height: 733px;
+  left: 465px;
+  filter: drop-shadow(-20px 0px 10px rgba(0, 0, 0, 0.9));
+}
+
+.contraPortada {
+  border-left: 0;
+  box-shadow: inset 9px 0 80px -7px rgba(0, 0, 0, .7);
+  background-color: #291604;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.inverted {
+  filter: invert(20%);
+}
+
+.button-container {
+  padding: 50px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+
+  button {
+    background: #fefefe28;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.196);
+    width: 100px !important;
+    height: 100px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    &:hover {
+      background: #fefefe57;
+      border: 3px solid rgba(255, 255, 255, 0.503);
+      -webkit-box-shadow: 1px 8px 15px 0px rgba(255, 255, 255, 0.4);
+      -moz-box-shadow: 1px 8px 15px 0px rgba(255, 255, 255, 0.4);
+      box-shadow: 1px 8px 15px 0px rgba(255, 255, 255, 0.4);
+    }
+    &:active {
+      border: 3px solid rgba(255, 255, 255, 0.778);
+      svg {fill: rgba(254, 254, 254, 0.819);}
+    }
+  }
+
+}

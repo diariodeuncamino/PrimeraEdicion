@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: rgb(52, 52, 52);
+  background-image: url("/Proyecto-LibroMAM/images/webp/background-v1.webp");
+  background-size: 100%;
+  
+
+}
+
+@font-face {
+  font-family: 'DaftBrush';
+  src: url('/fonts/Daft-Brush.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('/fonts/GreatVibes.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GloriaHallelujah';
+  src: url('/fonts/GloriaHallelujah.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Edo';
+  src: url('/fonts/edo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HandwritingDraft';
+  src: url('/fonts/handwriting-draft.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

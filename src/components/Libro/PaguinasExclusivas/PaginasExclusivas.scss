@@ -1,0 +1,291 @@
+.conteiner-paginaPresentacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("/Proyecto-LibroMAM/images/bg-page-02.png");
+  background-size: 100%;
+
+  h3 {
+    color: rgba(4, 4, 4, 0.707);
+    font-size: 20pt;
+    font-family: GreatVibes;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    font-weight: 400;
+    //text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+
+  }
+
+  .container-titulo-libro {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    user-select: none;
+
+
+    h1 {
+      font-family: 'DaftBrush';
+      font-size: 80pt;
+      color: rgba(0, 0, 0, 0.684);
+      padding: 0;
+      margin: 0;
+      letter-spacing: 0.0em;
+      line-height: 1;
+      font-weight: 400;
+      //text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+
+      white-space: nowrap;
+
+    }
+
+    h2 {
+      font-family: 'DaftBrush';
+      font-size: 35pt;
+      color: rgba(174, 142, 0, 0.748);
+      padding: 0;
+      margin: 0;
+      letter-spacing: 0.05em;
+      line-height: 0.5;
+      //text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+
+    }
+
+  }
+}
+
+/*--------- PaginaIndice --------------*/
+
+.container-paginaIndice {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .indice-container-text {
+    height: 400px;
+  }
+  .imageSellos {
+    width: 65%;
+    opacity: 0.2;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+  }
+  .imageBrujula {
+    width: 50%;
+    opacity: 0.08;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    right: 150px;
+    transform: rotate(60deg);
+  }
+
+  h1 {
+    text-align: center;
+    font-family: HandwritingDraft;
+    
+    font-weight: 400;
+    color: rgb(77, 45, 0);
+  }
+  b {
+    text-align: center;
+    font-family: HandwritingDraft;
+    font-size: 11pt;
+    font-weight: 400;
+    
+  }
+  li {
+    
+      font-family: GloriaHallelujah;
+      font-size: 11pt;
+
+      .oculto {
+        filter: blur(3px);
+      }
+      
+    
+  }
+  .container-indice {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .encabezado-indice {
+      border-bottom: 1px solid #4827045f;
+    }
+
+    .indice-item {
+      width: 430px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .puntos {
+        flex-grow: 1;
+        border-bottom: 1px dotted #888;
+        margin: 10px;
+      }
+
+
+    }
+  }
+}
+
+/*--------- PaginaPresentacionCapitulo --------------*/
+.container-PaginaPresentacionCapitulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: 100%;
+
+  h1 {
+    font-family: Edo;
+    font-size: 40pt;
+    letter-spacing: 0.0em;
+    line-height: 1;
+    font-weight: 400;
+    //text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+    color: rgba(0, 0, 0, 0.782);
+  }
+  h2 {
+    text-align: center;
+    font-family: HandwritingDraft;
+    color: rgba(0, 0, 0, 0.727);
+    font-size: 14pt;
+  }
+  p {
+    color: rgba(0, 0, 0, 0.76);
+    width: 350px;
+  }
+}
+
+/*--------- PaginaIntroduccion --------------*/
+.conteiner-paginaIntroduccion {
+
+  h1 {
+    text-align: center;
+    font-family: HandwritingDraft;
+    font-weight: 400;
+    color: rgb(77, 45, 0);
+  }
+
+  p {
+    font-size: 11pt;
+  }
+
+  .container-fotoPerfil {
+    position: relative;
+    
+    img {
+      position: absolute;
+      right: -30px;
+      width: 170px !important;
+      height: auto;
+      transform: rotate(6deg);
+    }
+  }
+  .container-mateenlugares {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 20px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    p {
+      width: 300px;
+      margin: 0;
+      padding: 0;
+    }
+    img {
+      position: absolute;
+      top: -25px;
+      left: -20px;
+      height: 150px !important;
+      width: auto !important;
+      transform: rotate(-15deg);
+    }
+  }
+
+  .imageIntro {
+    position: absolute;
+    width: 410px;
+    left: 30px;
+    bottom: 32px;
+  }
+  .inicioHuellas {
+    right: 20px;
+    top: 160px;
+    width: 90px;
+    position: absolute;
+    opacity: 0.5;
+  }
+}
+
+/*--------- PaginaAgradecimientos --------------*/
+.conteiner-paginaAgradecimientos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    font-family: HandwritingDraft;
+
+    font-weight: 400;
+    color: rgb(77, 45, 0);
+  }
+
+  p {
+    font-size: 11pt;
+    text-align: center;
+  }
+
+  .imageFirma {
+    margin-top: 100px;
+    width: 300px;
+    opacity: 0.9;
+  }
+}
+
+/*--------- PaginaFinal --------------*/
+.conteiner-paginaFinal {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    font-family: HandwritingDraft;
+    font-size: 40pt;
+    letter-spacing: 0.0em;
+    line-height: 1;
+    font-weight: 400;
+  }
+
+  .imagenHuellas {
+    position: absolute;
+    width: 90px;
+    bottom: 60px;
+    left: 60px;
+    opacity: 0.3;
+
+
+  }
+  .imageSellos {
+    width: 90%;
+    opacity: 0.3;
+  }
+
+}
