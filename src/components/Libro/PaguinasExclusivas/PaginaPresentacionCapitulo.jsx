@@ -6,7 +6,7 @@ export default function PaginaPresentacionCapitulo(props) {
       <header>
 
       </header>
-      <article className='container-PaginaPresentacionCapitulo' style={{backgroundImage:`url(/Proyecto-LibroMAM${props.imageBG})`}}>
+      <article className='container-PaginaPresentacionCapitulo' style={{backgroundImage:`url(/PrimeraEdicion${props.imageBG})`}}>
         <h2>{props.numCap}</h2>
         <h1>{props.tituloCap}</h1>
         <p>{props.subtituloCap}</p>

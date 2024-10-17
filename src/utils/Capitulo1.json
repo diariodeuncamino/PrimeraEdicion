@@ -39,7 +39,7 @@
           ],
           "images": [
             {
-              "url": "/Proyecto-LibroMAM/images/img_prueba1.png",
+              "url": "/PrimeraEdicion/images/img_prueba1.png",
               "alt": "img-prueba1"
             }
           ]
@@ -54,7 +54,7 @@
           ],
           "images": [
             {
-              "url": "/Proyecto-LibroMAM/images/img_prueba2.png",
+              "url": "/PrimeraEdicion/images/img_prueba2.png",
               "alt": "img-prueba"
             }
           ]
@@ -67,7 +67,7 @@
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. "          ],
           "images": [
             {
-              "url": "/Proyecto-LibroMAM/images/img_prueba3.png",
+              "url": "/PrimeraEdicion/images/img_prueba3.png",
               "alt": "img-prueba1"
             }
           ]

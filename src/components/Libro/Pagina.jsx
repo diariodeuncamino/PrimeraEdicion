@@ -7,7 +7,7 @@ export default function Pagina(props) {
 
   const PaginaTipo1 = ({ parrafos, background }) => (
     // Pagina Tipo 1 - Pagina solo de TEXTO
-    <article  style={{backgroundImage:`url(/Proyecto-LibroMAM${background})`, backgroundSize: '100%'}}>
+    <article  style={{backgroundImage:`url(/PrimeraEdicion${background})`, backgroundSize: '100%'}}>
       {parrafos.map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
       ))}
@@ -16,7 +16,7 @@ export default function Pagina(props) {
   
   const PaginaTipo2 = ({ parrafos, imagen, background  }) => (
     // Pagina Tipo 2 - Pagina TEXTO y IMAGEN
-    <article  style={{backgroundImage:`url(/Proyecto-LibroMAM${background})`, backgroundSize: '100%'}}>
+    <article  style={{backgroundImage:`url(/PrimeraEdicion${background})`, backgroundSize: '100%'}}>
       <div className='oculto'>
         {parrafos.map((paragraph, index) => (
           <p key={index}>{paragraph}</p>
@@ -30,7 +30,7 @@ export default function Pagina(props) {
 
   const PaginaTipo3 = ({ parrafos, imagen, background }) => (
     // Pagina Tipo 3 - Pagina IMAGEN y TEXTO
-    <article  style={{backgroundImage:`url(/Proyecto-LibroMAM${background})`, backgroundSize: '100%'}}>
+    <article  style={{backgroundImage:`url(/PrimeraEdicion${background})`, backgroundSize: '100%'}}>
       <div className='oculto'>
         <img src={imagen} alt="" />
       </div>
@@ -44,7 +44,7 @@ export default function Pagina(props) {
   );
   const PaginaTipo4 = ({ imagen, background  }) => (
     // Pagina Tipo 4 - Pagina con solo una IMAGEN 
-    <article  style={{backgroundImage:`url(/Proyecto-LibroMAM${background})`, backgroundSize: '100%'}}>
+    <article  style={{backgroundImage:`url(/PrimeraEdicion${background})`, backgroundSize: '100%'}}>
       <div>
         <img src={imagen} alt="" />
       </div>
